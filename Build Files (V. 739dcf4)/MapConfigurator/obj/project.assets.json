@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Christoffer\\Desktop\\CounterStrikeSharp\\MapConfigurator\\MapConfigurator.csproj",
+      "projectUniqueName": "C:\\Users\\Christoffer\\Desktop\\CSSharp\\MapConfigurator\\MapConfigurator.csproj",
       "projectName": "MapConfigurator",
-      "projectPath": "C:\\Users\\Christoffer\\Desktop\\CounterStrikeSharp\\MapConfigurator\\MapConfigurator.csproj",
+      "projectPath": "C:\\Users\\Christoffer\\Desktop\\CSSharp\\MapConfigurator\\MapConfigurator.csproj",
       "packagesPath": "C:\\Users\\Christoffer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Christoffer\\Desktop\\CounterStrikeSharp\\MapConfigurator\\obj\\",
+      "outputPath": "C:\\Users\\Christoffer\\Desktop\\CSSharp\\MapConfigurator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Christoffer\\AppData\\Roaming\\NuGet\\NuGet.Config",
