@@ -1,0 +1,14 @@
+C:\Users\Christoffer\Desktop\CounterStrikeSharp\MapConfigurator\obj\Debug\net7.0\MapConfigurator.csproj.AssemblyReference.cache
+C:\Users\Christoffer\Desktop\CounterStrikeSharp\MapConfigurator\obj\Debug\net7.0\MapConfigurator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Christoffer\Desktop\CounterStrikeSharp\MapConfigurator\obj\Debug\net7.0\MapConfigurator.AssemblyInfoInputs.cache
+C:\Users\Christoffer\Desktop\CounterStrikeSharp\MapConfigurator\obj\Debug\net7.0\MapConfigurator.AssemblyInfo.cs
+C:\Users\Christoffer\Desktop\CounterStrikeSharp\MapConfigurator\obj\Debug\net7.0\MapConfigurator.csproj.CoreCompileInputs.cache
+C:\Users\Christoffer\Desktop\CounterStrikeSharp\MapConfigurator\bin\Debug\net7.0\MapConfigurator.deps.json
+C:\Users\Christoffer\Desktop\CounterStrikeSharp\MapConfigurator\bin\Debug\net7.0\MapConfigurator.dll
+C:\Users\Christoffer\Desktop\CounterStrikeSharp\MapConfigurator\bin\Debug\net7.0\MapConfigurator.pdb
+C:\Users\Christoffer\Desktop\CounterStrikeSharp\MapConfigurator\bin\Debug\net7.0\CounterStrikeSharp.API.dll
+C:\Users\Christoffer\Desktop\CounterStrikeSharp\MapConfigurator\obj\Debug\net7.0\MapConfigurator.csproj.CopyComplete
+C:\Users\Christoffer\Desktop\CounterStrikeSharp\MapConfigurator\obj\Debug\net7.0\MapConfigurator.dll
+C:\Users\Christoffer\Desktop\CounterStrikeSharp\MapConfigurator\obj\Debug\net7.0\refint\MapConfigurator.dll
+C:\Users\Christoffer\Desktop\CounterStrikeSharp\MapConfigurator\obj\Debug\net7.0\MapConfigurator.pdb
+C:\Users\Christoffer\Desktop\CounterStrikeSharp\MapConfigurator\obj\Debug\net7.0\ref\MapConfigurator.dll
