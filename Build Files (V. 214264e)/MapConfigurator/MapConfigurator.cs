@@ -1,4 +1,4 @@
-﻿/////////////////
+/////////////////
 // - IMPORTS - //
 /////////////////
 
@@ -8,6 +8,8 @@ using System;
 // CSSharp specific imports
 using CounterStrikeSharp.API;
 using CounterStrikeSharp.API.Core;
+using CounterStrikeSharp.API.Modules.Timers;
+using Timer = CounterStrikeSharp.API.Modules.Timers.Timer;
 
 
 // Specifies the namespace of the plugin, this should match the name of the plugin file
@@ -21,7 +23,7 @@ public class MapConfigurator : BasePlugin
     public override string ModuleName => "[Custom] Map Configurator";
     public override string ModuleAuthor => "Manifest @Road To Glory";
     public override string ModuleDescription => "Allow server owners to easily create unique configuration files on a per map basis.";
-    public override string ModuleVersion => "V. 1.0.1 [Beta]";
+    public override string ModuleVersion => "V. 1.1.0 [Beta]";
  
 
     // This happens when the plugin is loaded
@@ -43,15 +45,21 @@ public class MapConfigurator : BasePlugin
     // This happens when a new map is loaded
     private void Listener_OnMapStart(string mapName)
     {
-        // Creates a string that specify path and name of the specific map's configuration file 
-        string mapFileName = "/mapconfigs/" + mapName + ".cfg";
+        Timers.Add(new Timer(2f, () =>
+        {
+            Console.WriteLine("MapConfigurator: Loading map configuration file...");
+            string mapPrefix = mapName[..mapName.IndexOf("_", StringComparison.Ordinal)];
+            Server.ExecuteCommand(
+                $"execifexists /mapconfigs/{mapPrefix}_.cfg"); // Keep the underscore for compatibility with SM plugins.
 
-        // Adds the command 'execifexists' in front of the file path that we just defined
-        string serverCommand = "execifexists " + mapFileName;
-
-        // Executes the specified servercommand and loads the map's .cfg file if it exists
-        Server.ExecuteCommand(serverCommand);
-
-        return;
+            // Creates a string that specify path and name of the specific map's configuration file 
+            string mapFileName = "/mapconfigs/" + mapName + ".cfg";
+            //
+            // // Adds the command 'execifexists' in front of the file path that we just defined
+            string serverCommand = "execifexists " + mapFileName;
+            //
+            // // Executes the specified servercommand and loads the map's .cfg file if it exists
+            Server.ExecuteCommand(serverCommand);
+        }));
     }
 }
