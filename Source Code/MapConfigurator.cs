@@ -9,10 +9,15 @@ using System;
 using CounterStrikeSharp.API;
 using CounterStrikeSharp.API.Core;
 
+// Required for being able to use attributes for commands and defining minimum api versions
+using CounterStrikeSharp.API.Core.Attributes;
+
 
 // Specifies the namespace of the plugin, this should match the name of the plugin file
 namespace MapConfigurator;
 
+// Defines the minimum version of CounterStrikeSharp required in order to run this plugin on the server 
+[MinimumApiVersion(96)]
 
 // Specifies our main class, this should match the name of the namespace
 public class MapConfigurator : BasePlugin
@@ -21,7 +26,7 @@ public class MapConfigurator : BasePlugin
     public override string ModuleName => "[Custom] Map Configurator";
     public override string ModuleAuthor => "Manifest @Road To Glory";
     public override string ModuleDescription => "Allow server owners to easily create unique configuration files on a per map basis.";
-    public override string ModuleVersion => "V. 1.0.2 [Beta]";
+    public override string ModuleVersion => "V. 1.0.4 [Beta]";
  
 
     // This happens when the plugin is loaded
@@ -54,7 +59,6 @@ public class MapConfigurator : BasePlugin
 
         return;
     }
-
 
 
     /////////////////////

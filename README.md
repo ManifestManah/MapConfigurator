@@ -24,10 +24,11 @@ In order for the plugin to work, you must have the following installed:
 
 
 ## Installation
-1) Download the contents and open the downloaded zip file.
-2) Drag the files within the 'csgo' folder into your server's csgo/ directory.
-3) Edit the files in cfg/mapconfigs/ folder and sub folders to match your preferences
-4) Restart your server, or change the map.
+To install this on your server do the following:
+1). Download the contents and open the downloaded zip file.
+2). Drag the files within the 'csgo' folder into your server's csgo/ directory.
+3). Edit the files in cfg/mapconfigs/ folder and sub folders to match your preferences
+4). Restart the server.
 
 
 ## Known Bugs & Issues
